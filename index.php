@@ -5,13 +5,13 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+    <head>  
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
         <?php
-         echo " Web Server is Running Locally";
+            require_once(__DIR__ . "/controller/create-db.php");       
         ?>
     </body>
 </html>
