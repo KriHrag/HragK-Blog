@@ -4,7 +4,7 @@
     $connection = new mysqli($host, $username, $password);
 
     if($connection->connect_error) {
-        die("Error: " . $connection->connection_error);
+        die("<p>Error: " . $connection->connection_error . "</p>");
     }
    
     $exists = $connection->select_db($database);
@@ -13,11 +13,11 @@
         $query = $connection->query("CREATE DATABASE $database");
         
         if($query){
-            echo "Successfully created  database: " . $database;
+            echo "<p>Successfully created  database: " . $database . "</p>";
         }
     } 
     else{
-        echo "Database already exists. ";
+        echo "<p>Database already exists.</p> ";
     }
     
     $query = $connection->query("CREATE TABLE posts ("
@@ -28,6 +28,8 @@
     if($query) {
         echo "Succefully created teble: posts";
     }
-    
+    else {
+        echo "<p>$connection->error</p>";
+    }
     
     $connection->close();
