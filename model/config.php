@@ -1,0 +1,2 @@
+<?php
+$path= "/HragK-Blog/";
