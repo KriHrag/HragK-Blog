@@ -1,5 +1,12 @@
+<html>
+    <head>  
+        <meta charset="UTF-8">
+         <link type="text/css" rel="stylesheet" href="css.css"> 
+        <title></title>
+    </head>
 <?php
    require_once(__DIR__ . "/../model/config.php");
+   
 ?>
 <h1>Create Blog Post</h1>
 
@@ -18,3 +25,4 @@
         <button type="submit">Submit</button>
     </div>
 </form>
+
