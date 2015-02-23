@@ -1,13 +1,10 @@
 body {
-    background-image: url('http://www.pageresource.com/wallpapers/wallpaper/smiley-epic-free_328400.jpg');
+    background-image: url(images/red.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-body
-
 
 
 h1{
