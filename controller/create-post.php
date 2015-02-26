@@ -13,4 +13,6 @@
             echo "<p>" . $_SESSION["connection"]->error . "</p>";
         }
 
-       
+//       echoed out some stuff
+        
+//        creates posts on this page 

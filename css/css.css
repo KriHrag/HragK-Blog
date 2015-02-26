@@ -1,21 +1,14 @@
 body {
-    background-image: url('http://fc02.deviantart.net/fs70/f/2010/237/1/4/Game_Fans_Blog_wallpaper_by_Seraphoid.jpg');
-/*   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-   background-repeat:no-repeat;
+    /* background-image: url('http://www.linuxeden.com/upimg/allimg/141230/254-1412300Z3370-L.jpg'); */
+    /*   -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+
+    /* background-repeat:no-repeat; */
 
 }
 
-
-h1{
-    border-top: 2px solid red
-}
-
-h2{
-    padding: 35px
-}
 
 
 * { margin: 0; padding: 0; }
@@ -28,3 +21,29 @@ h1, h2 { font: bold 56px Helvetica, Arial, Sans-Serif; letter-spacing: -2px; }
 h1 { margin: 0 0 20px 0; }
 h2 { margin: 50px 0 20px 0; font-size: 24px; letter-spacing: -1px; color: #2c2424; }
 
+#navbar {
+    background-color: white;
+}
+/*added a navigation bar*/
+#insidejumbo {
+    text-align: center;
+}
+#button {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+/*added a button*/
+.jumbotron {
+    background-image: url('http://grace-outreach.net/wp-content/uploads/2013/02/wooden-background-1920x1200.jpg');
+}
+/*added a background image in my jumbotroon*/
+body{
+    background-image: url("http://i828.photobucket.com/albums/zz210/scotch74/3D%20Textures/3D%20Wood%20Textures/LogWall2.jpg");
+}
+/*added a background image*/
+.text{
+    color: white;
+    text-align: center;
+
+}

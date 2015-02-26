@@ -8,9 +8,9 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
 if ($query) {
-    echo "Succefully created teble: posts";
+    echo "<p  style='color: transparent;>Succefully created teble: posts</p>";
 } else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
+    echo "<p  style='color: transparent;>" . $_SESSION["connection"]->error . "</p>";
 }
 
 
@@ -23,8 +23,13 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "PRIMARY KEY (id))");
 
 if($query) {
-    echo "<p>Succefully created table: users</p>";
+    echo "<p style='color: transparent;'>Succefully created table: users</p>";
 }
+
+//echoed out my text
+
 else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
+    echo "<p  style='color: transparent;>" . $_SESSION["connection"]->error . "</p>";
 }
+
+//echoed out my text
