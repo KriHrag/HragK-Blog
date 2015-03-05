@@ -3,11 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/view/form.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/controller/logout-user.php</file>
             <file>file:/C:/xampp/htdocs/HragK-Blog/index.php</file>
-            <file>file:/C:/xampp/htdocs/HragK-Blog/view/navigation.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/controller/create-user.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/view/register-form.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/model/config.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/register.php</file>
             <file>file:/C:/xampp/htdocs/HragK-Blog/view/footer.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/controller/create-db.php</file>
             <file>file:/C:/xampp/htdocs/HragK-Blog/css/css.css</file>
             <file>file:/C:/xampp/htdocs/HragK-Blog/view/header.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/controller/read-posts.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/view/navigation.php</file>
+            <file>file:/C:/xampp/htdocs/HragK-Blog/model/Database.php</file>
         </group>
     </open-files>
 </project-private>

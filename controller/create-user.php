@@ -7,13 +7,13 @@
  
  $salt = "$5$" . "rounds=5000$" . uniqid(mt_rand(), true) . "$";
  
- $hashedPassword = crypt($password, $salt);
+ $hashedPassword = crypt($password, $salt );
  
-$query = $_SESSION["connection"]->queryu("INSERT INTO users SET"
+$query = $_SESSION["connection"]->query("INSERT INTO users SET "
         . "email = '$email',"
-        . "username = '$username'"
+        . "username = '$username',"
         . "password = '$hashedPassword',"
-        . "salt = $salt");
+        . "salt = '$salt'");
  
 if($query) {
     echo "Suuccefully created user: $username";

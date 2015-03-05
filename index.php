@@ -9,11 +9,11 @@
     <body>
         <!--My Navbar-->
         <ul class="nav nav-tabs navbar-fixed-top" id="navbar">
-            <li role="presentation" class="active"><a href="index.php">Home</a></li>
-            <li role="presentation"><a href="register.php">Sign Up</a></li>
-            <li role="presentation"><a href="post.php">Post</a></li>
-            <li role="presentation"><a href="login-form.php">Login</a></li>
-            <li role="presentation"><a href="logout-user.php">Logout</a></li>
+            <li role="presentation" class="active"><a href='index.php'>Home</a></li>
+            <li role="presentation"><a href='register.php'>Sign Up</a></li>
+            <li role="presentation"><a href='post.php'>Post</a></li>
+            <li role="presentation"><a href='login.php'>Login</a></li>
+            <li role="presentation"><a href='logout-user.php'>Logout</a></li>
         </ul>
         
         <!--linked my folder-->
